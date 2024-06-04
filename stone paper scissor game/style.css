@@ -1,0 +1,100 @@
+body{
+    background-color: brown;
+}
+#heading{
+    text-align: center;
+    background-color: darkorange;
+    color: white;
+}
+.container{
+    display: block;
+    background-color: darkgreen;
+    height: 39vh;
+    width: 68vh;
+    position: relative;
+    left: 78vh;
+    top: 15vh;
+    border: 2px solid;
+    gap: 2vh;
+}
+
+.conatiner1{
+    height: 15vh;
+    width: 15vh;
+    background-color: cornflowerblue;
+    position: relative;
+    top: 6vh;
+    background-image: url(./images/fist.png);
+    background-size: cover;
+    border-radius: 64px;
+}
+.conatiner2{
+    height: 15vh;
+    width: 15vh;
+    background-color: cornflowerblue;
+    position: relative;
+    top: 6vh;
+    background-image: url("./images/hand.png");
+    background-size: cover;
+    border-radius: 64px;
+}
+.conatiner3{
+    height: 15vh;
+    width: 15vh;
+    background-color: cornflowerblue;
+    position: relative;
+    top: 6vh;
+    background-image: url("./images/peace.png");
+    background-size: cover;
+    border-radius: 64px;
+}
+#start{
+    height: 9vh;
+    width: 40vh;
+    position: relative;
+    left: 14vh;
+    display: block;
+    top: 10vh;
+    border: 2px dotted black;
+    text-align: center;
+    font-size: 49px;
+    color: white;
+    background-color: fuchsia;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+@media (max-width:1000) {
+    
+}
+.scores{
+    height: 100px;
+    width: 378px;
+    position: relative;
+    left: 38%;
+    top: 160px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 5px;
+}
+.sco1{
+    height: 49px;
+    width: 57px;
+    display: flex;
+    position: relative;
+    align-self: center;
+    font-size: 25px;
+    
+}
+.sco2{
+    height: 49px;
+    width: 57px;
+    display: flex;
+    position: relative;
+    align-self: center;
+    font-size: 25px;
+   
+}
